@@ -15,6 +15,7 @@ Run the functions-framework: `functions-framework --target looker_api_call --por
 
 
 In looker, we have a connection named `my_looker_connection`, with a scratch schema of `my_looker_scratch` and a table called `my_existing_table`
+
 `my_looker_scratch.my_existing_table` DDL statement looks like this: `CREATE TABLE my_looker_scratch.my_existing_table (json_string  string)`
 
 Make an API call:
