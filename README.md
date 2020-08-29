@@ -5,8 +5,11 @@ This is a lightweight cloud function meant to be an example of using the Looker 
 To run the function locally:
 
 Rename .env.example `mv .env.example .env`
+
 Edit the .env file to include your looker instance variable
+
 Load the environment variables: `set -o allexport; source .env; set +o allexport`
+
 Run the functions-framework: `functions-framework --target looker_api_call --port 3333`
 
 
